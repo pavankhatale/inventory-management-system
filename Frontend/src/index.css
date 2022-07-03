@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+}
+
+/* main layout css--> */
+
+#root {
+  height: 100%;
+}
+
+.header {
+  height: 60px; 
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, rgb(8, 15, 72) , rgb(14, 75, 83));
+} 
+
+.content {
+  display: flex;
+
+}
+
+.footer {
+  background-color: green;
+  color: black;
+  text-align: center;
+  padding: 3px;
+  display: block;
+}
+
+.detail {
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, rgb(243, 243, 232) , rgb(162, 31, 173));
+  flex: 1;
+  min-height: calc(100vh - 80px);  
+}
+
+.sider {
+  min-height: calc(100vh - 80px);
+  background-color: rgb(19, 7, 68);
+} 
+
+
+/* sub folder css--> */
+
+
+/* .wrapper{
+  max-width: 500px; height: auto;
+  padding: 20px;
+  box-shadow: 1px 1px 15px 1px black ;
+  backdrop-filter: blur(3px);
+  border-radius: 10px;
+}  */

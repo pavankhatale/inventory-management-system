@@ -1,0 +1,46 @@
+
+/* main layout css--> */
+
+#root {
+  height: 100%;
+}
+
+.header {
+  background-color: #080f43eb;  
+  height: 60px; 
+} 
+
+.content {
+  display: flex;
+
+}
+
+.footer {
+  background-color: green;
+  text-align: center;
+  padding: 3px;
+  display: block;
+}
+
+.detail {
+  background-color: pink;
+  flex: 1;
+  min-height: calc(100vh - 80px);  
+}
+
+.sider {
+  min-height: calc(100vh - 80px);
+  background-color: rgb(19, 7, 68);
+} 
+
+
+/* sub folder css--> */
+
+
+/* .wrapper{
+  max-width: 500px; height: auto;
+  padding: 20px;
+  box-shadow: 1px 1px 15px 1px black ;
+  backdrop-filter: blur(3px);
+  border-radius: 10px;
+}  */
